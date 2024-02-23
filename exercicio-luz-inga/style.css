@@ -1,0 +1,112 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141111;
+
+    
+    background-image: url('./_6057c596-e656-451a-9392-4d263bde115d.jpeg');
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-position: center; /* Para centralizar a imagem */
+    /* Outras propriedades opcionais, como cor de fundo, caso a imagem não carregue */
+    background-color: #f2f2f2;
+    
+   
+    
+}
+
+/* Estilo para o cabeçalho */
+#header {
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+    
+}
+
+/* Estilo para o título principal */
+.home {
+    margin: 0;
+}
+
+/* Estilo para o subtítulo */
+h2 {
+    margin-top: 0;
+    color: #000000;
+    
+}
+
+/* Estilo para o lado da barra lateral */
+#side {
+    background-color: #756154;
+    padding: 20px 10px; /* Reduzindo o padding horizontal */
+    border-radius: 10px; /* Adicionando bordas arredondadas */
+    max-width: 400px; /* Definindo uma largura máxima */
+    margin-left: auto; /* Centralizando a sessão lateral */
+    margin-right: auto; /* Centralizando a sessão lateral */
+}
+
+
+
+
+/* Estilo para os links na barra lateral */
+#side a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Estilo para os links na barra lateral ao passar o mouse */
+#side a:hover {
+    color: #ffffff;
+}
+
+/* Estilo para o formulário */
+#form {
+    background-color: transparent;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo para as entradas do formulário */
+#form div {
+    margin-bottom: 20   px;
+    border-radius:50cap;
+    color: #ffffff;
+    background-color: #756154;
+}
+
+/* Estilo para os rótulos do formulário */
+#form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para as entradas de texto do formulário */
+#form input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+/* Estilo para o botão */
+#form div {
+    text-align: 0%;
+}
+
+#form label[type="button"] {
+    background-color: #756154; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remover a borda */
+    border-radius: 20px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor do mouse ao passar */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+#form label[type="button"]:hover {
+    background-color: #756154; /* Cor de fundo ao passar o mouse */
+}
